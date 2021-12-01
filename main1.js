@@ -48,3 +48,10 @@ for (let i = 0; i < newArr.length; i++) {
 console.log(newArr);
 
 
+var str = ["a", "b", "2", "4", "5", "7", "flat", "house"]
+var filtered = str.filter(function(item) {
+    return (!isNaN(item));
+});
+console.log(filtered);
+
+
